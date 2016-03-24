@@ -4,29 +4,54 @@
     <meta charset="utf-8">
     <title>intro</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="css/css.css">
   </head>
 
   <body>
-    <div class="row quadro cor-tema">
-        <div class="col-md-12 texto-centro cor-tema" style="margin:0 auto">
+    <div class="row quadro cor-tema tamanho" style="position:relative">
+      <div class="row" style="position:absolute; height:50%; width:100%;margin:0; padding:0; background:linear-gradient(to bottom,#9C5865,#DD545C);padding-top:0; z-index:0;">
+      </div>
+        <div class="col-md-12 texto-centro" style="margin:0 auto;z-index:5">
           <div class="relativ">
             <div class="box margi" style="">
-              <div class="branco">
+              <div class="branco zin">
                 <div class="padding-30">
                   <div class="logo">
+                    <div class="logo-logo">
+                        <i class="fa fa-anchor" style="font-size:50px"></i>
+                    </div>
                   </div>
                 </div>
-              <h1 class="titulo">PetSpace</h1>
+              <h1 class="titulo" style="z-index:9;">PetSpace</h1>
               <h2 class="subtitulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
             </div>
           </div>
         </div>
+        <div class="col-md-10 texto-centro image-center" style="">
+          <img src="https://devspace.io/images/preview.png" class="img-responsive outra" width="960" height="524" alt="" style="top:0px; position:absolute;z-index:5"/>
+        </div>
       </div>
-      <div class="col-md-10 texto-centro image-center absoluto" style="">
-        <img src="https://devspace.io/images/preview.png" class="img-responsive outra" width="960" height="524" alt="" style=""/>
+    </div>
+
+        <div class="row around-md" style="width:100%">
+        <div class="col-xs-3" style="background:red">
+            <div class="box">
+                1
+            </div>
+        </div>
+        <div class="col-xs-3" style="background:blue">
+            <div class="box">
+                2
+            </div>
+        </div>
+        <div class="col-xs-3" style="background:red">
+            <div class="box">
+                3
+            </div>
+        </div>
       </div>
-  </div>
+
   </body>
 </html>

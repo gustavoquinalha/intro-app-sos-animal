@@ -45,7 +45,7 @@
     position:relative;
   }
   .quadro {
-    padding-top:30px;
+
     padding-bottom:50px;
     width:100%;
     margin:0;
@@ -53,7 +53,7 @@
 
   }
   .cor-tema {
-    background:#ff4455;
+    background:#ccc;
   }
   .subtitulo  {
     color:#e5e5e5;
@@ -65,9 +65,22 @@
     border-radius: 50%;
     border:1px solid #f8f8f8;
     margin: 0 auto;
-
+    position: relative;
+  }
+  .logo-logo {
+    padding-top: 25%
   }
   .padding-30 {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .espaco {
+    padding-top: 400px;
+  }
+  .tamanho {
+    height: 800px;
+  }
+
+  .zin {
+    z-index: 99;
   }
