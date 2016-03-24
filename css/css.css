@@ -81,6 +81,12 @@
     height: 800px;
   }
 
+  @media screen and (max-device-width: 480px) {
+    .tamanho { height: 300px;}
+  }
+
+
+
   .zin {
     z-index: 99;
   }
