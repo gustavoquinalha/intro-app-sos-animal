@@ -31,6 +31,13 @@
   .titulo {
     line-height: 10px;
   }
+  .segtitulo {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .padding-20-b {
+    padding-bottom: 20px;
+  }
   .relativo {
     position: relative
   }
@@ -74,6 +81,10 @@
   .logo-logo {
     padding-top:15px;
   }
+
+  .logo-icon {
+    padding-top:25%;
+  }
   .padding-30 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -97,3 +108,16 @@
   .fundo-cor {
     position:absolute; height:500px; width:100%;margin:0; padding:0; background:linear-gradient(to bottom,#9C5865,#DD545C);padding-top:0; z-index:0;
   }
+  .texto {
+    padding-top: 10px
+  }
+
+  .padding-50-resp {
+    padding-top: 0px
+  }
+
+  @media screen and (max-width: 480px) {
+    .padding-50-resp {
+      padding-top: 90px
+    }
+    }
