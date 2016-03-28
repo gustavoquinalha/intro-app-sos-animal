@@ -2,6 +2,10 @@
     padding:0;
     margin:0;
     font-family: 'Raleway';
+
+  }
+  html{
+    background: #ccc
   }
   .margi {
     margin-left: 20px;
@@ -22,7 +26,7 @@
   }
   .subtitulo {
     font-size: 16px;
-    line-height: 10px;
+    line-height: 20px;
   }
   .titulo {
     line-height: 10px;
@@ -80,13 +84,16 @@
   .tamanho {
     height: 800px;
   }
-
-  @media screen and (max-device-width: 480px) {
-    .tamanho { height: 300px;}
+@media screen and (max-width: 480px) {
+    .tamanho {
+      height: 500px;
+    }
   }
-
 
 
   .zin {
     z-index: 99;
+  }
+  .fundo-cor {
+    position:absolute; height:500px; width:100%;margin:0; padding:0; background:linear-gradient(to bottom,#9C5865,#DD545C);padding-top:0; z-index:0;
   }
